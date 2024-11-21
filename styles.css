@@ -47,11 +47,16 @@ p {
 }
 
 #language-switch button.selected {
-    background-color: #3d5a63;
+    background: #759c8a;
+    color: #fff;
+    border: 1px solid #007BFF;
+    cursor: default;
 }
 
 #language-switch button:hover {
-    background-color: #3d5a63;
+  background: #759c8a;
+    color: #fff;
+}
 }
 
 /* Container for content */
@@ -69,9 +74,8 @@ section {
     animation: fadeIn 2s ease;
 }
 
-h2 {
-    font-size: 1.8em;
-    color: #765c41;
+h1, h2, h3 {
+    color: #333;
 }
 
 ul {
